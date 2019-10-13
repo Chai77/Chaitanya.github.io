@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Chaitanya Eranki</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='../css/main.css'>
+    <link rel='stylesheet' type='text/css' media='screen' href='../css/contact.css'>
+    <script src='../javascript/app.js'></script>
+</head>
+<body>
+    
+        <canvas id="background"></canvas>
+        <script src='../javascript/background.js'></script> 
+
+    <header>
+        <nav>
+            <img src="../logo.svg" />
+            <ul>
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="#">About Me</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="#">Contact me</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <p>SEND EMAIL</p>
+        <form class="contact-form" action="../php/contact.php" method="post">
+            <input type="text" name="name" placeholder="Full Name">
+            <input type="text" name="mail" placeholder="Your Email">
+            <input type="text" name="subject" placeholder="Subject">
+            <textarea name="message" placeholder="message"></textarea>
+            <button type="submit" name="submit">SEND MAIL</button>
+        </form>
+    </main>
+</body>
+</html>
